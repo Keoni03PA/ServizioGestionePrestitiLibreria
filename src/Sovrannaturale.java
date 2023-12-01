@@ -1,6 +1,9 @@
 public class Sovrannaturale extends Libro{
 
-    //Sfrutto il principio dell'ereditarietà per attrivuire dei field alla mia sottoclasse
+    /*
+    Sfrutto il principio dell'ereditarietà per attribuire
+    dei field alla mia sottoclasse
+    */    
     public Sovrannaturale(String titolo, String autore, int annoDiPubblicazione, StatoLibro stato) {
         super(titolo, autore, annoDiPubblicazione,stato);
     }
