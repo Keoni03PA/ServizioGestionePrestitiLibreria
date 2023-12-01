@@ -1,7 +1,7 @@
 public class Fantasy extends Libro {
 
     /*
-    Sfrutto il principio dell'ereditarietà per attrivuire
+    Sfrutto il principio dell'ereditarietà per attribuire
     dei field alla mia sottoclasse
     */
     public Fantasy(String titolo, String autore, int annoDiPubblicazione, StatoLibro stato) {
