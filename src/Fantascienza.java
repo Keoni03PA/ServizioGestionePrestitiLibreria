@@ -1,6 +1,6 @@
 public class Fantascienza extends Libro{
 
-    //Sfrutto il principio dell'ereditarietà per attrivuire dei field alla mia sottoclasse
+    //Sfrutto il principio dell'ereditarietà per attribuire dei field alla mia sottoclasse
     public Fantascienza(String titolo, String autore, int annoDiPubblicazione, StatoLibro stato) {
         super(titolo, autore, annoDiPubblicazione,stato);
     }
