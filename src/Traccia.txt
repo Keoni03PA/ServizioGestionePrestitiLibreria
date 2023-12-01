@@ -1,0 +1,59 @@
+Traccia dell'esercizio Java: Gestione di una Libreria
+
+Si desidera creare un'applicazione per la gestione di una libreria di libri.
+Si richiede di progettare un sistema che gestisca diversi tipi di libri con
+funzionalità di prestito e restituzione.
+
+
+1. Gerarchia dei Libri:
+
+Definire una classe astratta Libro che contiene attributi comuni
+come titolo,autore, anno di pubblicazione.
+
+Creare almeno tre diverse sottoclassi di Libro (es. Romanzo, Fantasy, Storia)
+che estendono la classe Libro. Ogni sottoclasse deve implementare un metodo
+per calcolare il prezzo del libro in base alle sue caratteristiche.
+
+
+2. Gestione del Prestito:
+
+Creare un'interfaccia chiamata GestionePrestito che contiene i metodi prestaLibro()
+e restituisciLibro() per il prestito e la restituzione dei libri.
+
+Implementare la gestione dei prestiti e delle restituzioni nella classe principale
+della libreria.
+
+
+3. Stato del Libro:
+
+ un enum chiamato StatoLibro che rappresenti lo stato attuale di un libro nella libreria
+ (disponibile, in prestito, in restauro, etc.).
+
+
+4. Modificatori e Concetti Avanzati:
+
+Utilizzare il modificatore final per impedire l'ereditarietà da una classe.
+
+Utilizzare il modificatore protected per limitare l'accesso a determinati attributi/metodi
+alle sottoclassi.
+
+/*-Utilizzare le classi Wrapper per convertire i tipi primitivi in oggetti e viceversa. questo no-*/
+
+
+5. Operazioni:
+
+Implementare un'operazione per visualizzare l'elenco dei libri disponibili nella libreria.
+
+Aggiungere la possibilità di cercare libri per autore, titolo o anno di pubblicazione.
+
+
+Note Aggiuntive:
+
+Si consiglia di documentare il codice utilizzando commenti significativi per spiegare il
+funzionamento di classi, metodi e variabili.
+
+Creare una classe principale (Main) per testare le funzionalità implementate.
+
+L'obiettivo principale è progettare un sistema flessibile e ben strutturato che
+consenta la gestione dei libri e delle operazioni di prestito/restituzione all'interno
+di una libreria immaginaria.
